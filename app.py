@@ -25,7 +25,7 @@ model = RandomForestClassifier()
 model.fit(X, y)
 
 st.title("Pokémon Type Classifier")
-
+#testing
 # Input fields for base stats
 hp = st.number_input('HP', min_value=1, max_value=255, value=50)
 attack = st.number_input('Attack', min_value=1, max_value=255, value=50)
